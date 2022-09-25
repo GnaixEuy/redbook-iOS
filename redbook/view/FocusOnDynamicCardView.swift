@@ -13,7 +13,6 @@ struct FocusOnDynamicCardView: View {
     
     var body: some View {
         VStack{
-            
             HStack(alignment: .center){
                 Image("user_img")
                     .CircleImage(width: 40)
@@ -27,6 +26,7 @@ struct FocusOnDynamicCardView: View {
                     //action
                 }label: {
                     Image(systemName: "ellipsis")
+                        .foregroundColor(.black)
                 }
                 
             }
@@ -87,7 +87,7 @@ struct FocusOnDynamicCardView: View {
             HStack{
                 // 评论
                 Image("img2")
-                    .CircleImage(width: 50)
+                    .CircleImage(width: 40)
                     .frame(alignment: .leading)
                 
                 TextField("喜欢就给一个评论", text: self.$text)
@@ -95,7 +95,7 @@ struct FocusOnDynamicCardView: View {
                 Spacer()
             }
             .background(.gray.opacity(0.1), in: RoundedRectangle(cornerRadius: 20))
-            .padding(.horizontal,20)
+            .padding(.horizontal,15)
         }
         .padding(.vertical)
     }

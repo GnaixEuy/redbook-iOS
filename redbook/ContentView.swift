@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State var select = 0
+    
     var body: some View {
         NavigationView{
             VStack{
@@ -25,19 +27,19 @@ struct ContentView: View {
                     
                     HStack(spacing: 28){
                         Button{
-                            select = 0
+                            self.select = 0
                         }label: {
                             Text("关注")
                                 .foregroundColor(select==0 ? .black:.gray)
                         }
                         Button{
-                            select = 1
+                            self.select = 1
                         }label: {
                             Text("发现")
                                 .foregroundColor(select==1 ? .black:.gray)
                         }
                         Button{
-                            select = 2
+                            self.select = 2
                         }label: {
                             Text("附近")
                                 .foregroundColor(select==2 ? .black:.gray)
@@ -54,6 +56,8 @@ struct ContentView: View {
                     .foregroundColor(.black)
                 }
                 .padding(.horizontal)
+                
+                Divider()
                 
                 //主题
                 TabView(selection: self.$select){

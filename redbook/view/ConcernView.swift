@@ -15,17 +15,18 @@ struct ConcernView: View {
         ScrollView{
             ScrollView(.horizontal,showsIndicators: false){
                 HStack{
-                    ForEach(0 ..< 5){item in
+                    ForEach(0 ..< 2){item in
                         VStack(spacing: 0){
                             // 关注的人头像
                             Image("user_img")
-                                .CircleImage(width: 75)
+                                .CircleImage(width: 60)
                             Text("username")
                         }
                     }
                     Spacer()
                 }
             }
+            .padding(.leading,5)
             //关注的人主体内容
             ForEach(0..<6){item in
                 FocusOnDynamicCardView()

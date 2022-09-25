@@ -12,6 +12,8 @@
 		1F659DE128E03EC8004A441E /* ConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE028E03EC8004A441E /* ConcernView.swift */; };
 		1F659DE328E04095004A441E /* Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE228E04094004A441E /* Extansion.swift */; };
 		1F659DE728E04F0E004A441E /* FocusOnDynamicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */; };
+		1F659DE928E07CE5004A441E /* FindNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */; };
+		1F659DEB28E07D5D004A441E /* FindNavgationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */; };
 		1FA77F3328D978F5001C54CF /* redbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F3228D978F5001C54CF /* redbookApp.swift */; };
 		1FA77F3528D978F5001C54CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F3428D978F5001C54CF /* ContentView.swift */; };
 		1FA77F3728D978F7001C54CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F3628D978F7001C54CF /* Assets.xcassets */; };
@@ -26,7 +28,6 @@
 		1FA77F7828D98211001C54CF /* AboutMePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7728D98211001C54CF /* AboutMePageView.swift */; };
 		1FA77F7A28D9834F001C54CF /* ShoppingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */; };
 		1FA77F7C28D98363001C54CF /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7B28D98363001C54CF /* MainPageView.swift */; };
-		1FA77F7E28D9836F001C54CF /* addNewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7D28D9836F001C54CF /* addNewPageView.swift */; };
 		1FA77F8128D98474001C54CF /* MessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8028D98474001C54CF /* MessageItemView.swift */; };
 		1FA77F8528D984DF001C54CF /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8428D984DF001C54CF /* MessageListView.swift */; };
 		1FA77F8728D9857D001C54CF /* MessageTitleFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8628D9857D001C54CF /* MessageTitleFutureView.swift */; };
@@ -61,6 +62,8 @@
 		1F659DE028E03EC8004A441E /* ConcernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcernView.swift; sourceTree = "<group>"; };
 		1F659DE228E04094004A441E /* Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansion.swift; sourceTree = "<group>"; };
 		1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusOnDynamicCardView.swift; sourceTree = "<group>"; };
+		1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavigationBarView.swift; sourceTree = "<group>"; };
+		1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavgationSelectionView.swift; sourceTree = "<group>"; };
 		1FA77F2F28D978F5001C54CF /* redbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA77F3228D978F5001C54CF /* redbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbookApp.swift; sourceTree = "<group>"; };
 		1FA77F3428D978F5001C54CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,7 +82,6 @@
 		1FA77F7728D98211001C54CF /* AboutMePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMePageView.swift; sourceTree = "<group>"; };
 		1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingPageView.swift; sourceTree = "<group>"; };
 		1FA77F7B28D98363001C54CF /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
-		1FA77F7D28D9836F001C54CF /* addNewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewPageView.swift; sourceTree = "<group>"; };
 		1FA77F8028D98474001C54CF /* MessageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItemView.swift; sourceTree = "<group>"; };
 		1FA77F8428D984DF001C54CF /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		1FA77F8628D9857D001C54CF /* MessageTitleFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTitleFutureView.swift; sourceTree = "<group>"; };
@@ -185,13 +187,14 @@
 				1FA77F7728D98211001C54CF /* AboutMePageView.swift */,
 				1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */,
 				1FA77F7B28D98363001C54CF /* MainPageView.swift */,
-				1FA77F7D28D9836F001C54CF /* addNewPageView.swift */,
 				1FD3FD8F28DF0F9B004133D8 /* Card.swift */,
 				1FD3FD9128E00131004133D8 /* Tabbar.swift */,
 				1F659DDC28E03E85004A441E /* FindView.swift */,
 				1F659DDE28E03EB8004A441E /* NearView.swift */,
 				1F659DE028E03EC8004A441E /* ConcernView.swift */,
 				1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */,
+				1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */,
+				1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F659DEB28E07D5D004A441E /* FindNavgationSelectionView.swift in Sources */,
 				1FA77F3528D978F5001C54CF /* ContentView.swift in Sources */,
 				1FA77F7A28D9834F001C54CF /* ShoppingPageView.swift in Sources */,
 				1F659DE728E04F0E004A441E /* FocusOnDynamicCardView.swift in Sources */,
@@ -389,11 +393,11 @@
 				1FA77F8528D984DF001C54CF /* MessageListView.swift in Sources */,
 				1FA77F6E28D9808A001C54CF /* Strings+Localisation.swift in Sources */,
 				1FA77F3328D978F5001C54CF /* redbookApp.swift in Sources */,
+				1F659DE928E07CE5004A441E /* FindNavigationBarView.swift in Sources */,
 				1FA77F8128D98474001C54CF /* MessageItemView.swift in Sources */,
 				1F659DE128E03EC8004A441E /* ConcernView.swift in Sources */,
 				1FA77F8728D9857D001C54CF /* MessageTitleFutureView.swift in Sources */,
 				1FA77F7128D980F1001C54CF /* LanguageUtil.swift in Sources */,
-				1FA77F7E28D9836F001C54CF /* addNewPageView.swift in Sources */,
 				1FA77F8A28D98901001C54CF /* TimeUtil.swift in Sources */,
 				1FA77F7C28D98363001C54CF /* MainPageView.swift in Sources */,
 				1F659DE328E04095004A441E /* Extansion.swift in Sources */,
