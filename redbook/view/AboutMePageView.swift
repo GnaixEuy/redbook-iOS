@@ -25,8 +25,8 @@ struct AboutMePageView: View {
             .zIndex(99)
             VStack{
                 Image("background")
-                    .resizable()
-                    .scaledToFit()
+                    .ignoresSafeArea(.all)
+                    .scaledToFill()
                     .brightness(0.01)
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height/2, alignment: Alignment.top)
                     .blur(radius: 10)

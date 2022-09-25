@@ -23,10 +23,6 @@ struct AboutMeHeaderView: View {
             }
             .foregroundColor(Color.white)
             .padding(.horizontal)
-            
-            
-           
-        
     }
 }
 
