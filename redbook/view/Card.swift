@@ -10,7 +10,7 @@ import SwiftUI
 struct Card: View {
     
     var text = "文案"
-    var image = ""
+    var image = "user_img"
     var username = ""
     var locate = ""
     
@@ -26,7 +26,8 @@ struct Card: View {
             HStack(spacing: 0){
                 //头像信息
                 Image(self.image)
-                    .CircleImage(width: 40)
+                    .CircleImage(width: 35)
+                
                 Text(self.username)
                 
                 Spacer()

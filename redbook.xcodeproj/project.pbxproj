@@ -14,6 +14,7 @@
 		1F659DE728E04F0E004A441E /* FocusOnDynamicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */; };
 		1F659DE928E07CE5004A441E /* FindNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */; };
 		1F659DEB28E07D5D004A441E /* FindNavgationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */; };
+		1F93D17F28E4214B00B89556 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F93D17E28E4214B00B89556 /* NoteView.swift */; };
 		1FA77F3328D978F5001C54CF /* redbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F3228D978F5001C54CF /* redbookApp.swift */; };
 		1FA77F3528D978F5001C54CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F3428D978F5001C54CF /* ContentView.swift */; };
 		1FA77F3728D978F7001C54CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F3628D978F7001C54CF /* Assets.xcassets */; };
@@ -24,15 +25,10 @@
 		1FA77F6528D97E38001C54CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F6728D97E38001C54CF /* Localizable.strings */; };
 		1FA77F6E28D9808A001C54CF /* Strings+Localisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F6D28D9808A001C54CF /* Strings+Localisation.swift */; };
 		1FA77F7128D980F1001C54CF /* LanguageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7028D980F1001C54CF /* LanguageUtil.swift */; };
-		1FA77F7628D981E5001C54CF /* MessagePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7528D981E5001C54CF /* MessagePageView.swift */; };
 		1FA77F7828D98211001C54CF /* AboutMePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7728D98211001C54CF /* AboutMePageView.swift */; };
 		1FA77F7A28D9834F001C54CF /* ShoppingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */; };
 		1FA77F7C28D98363001C54CF /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F7B28D98363001C54CF /* MainPageView.swift */; };
-		1FA77F8128D98474001C54CF /* MessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8028D98474001C54CF /* MessageItemView.swift */; };
-		1FA77F8528D984DF001C54CF /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8428D984DF001C54CF /* MessageListView.swift */; };
-		1FA77F8728D9857D001C54CF /* MessageTitleFutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8628D9857D001C54CF /* MessageTitleFutureView.swift */; };
 		1FA77F8A28D98901001C54CF /* TimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8928D98901001C54CF /* TimeUtil.swift */; };
-		1FA77F8C28D98E33001C54CF /* MessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8B28D98E33001C54CF /* MessageDetailView.swift */; };
 		1FA77F8F28D9A0FB001C54CF /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F8E28D9A0FB001C54CF /* UserInfoView.swift */; };
 		1FA77F9128D9B110001C54CF /* AboutMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F9028D9B110001C54CF /* AboutMeHeaderView.swift */; };
 		1FD3FD9028DF0F9B004133D8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD3FD8F28DF0F9B004133D8 /* Card.swift */; };
@@ -64,6 +60,7 @@
 		1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusOnDynamicCardView.swift; sourceTree = "<group>"; };
 		1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavigationBarView.swift; sourceTree = "<group>"; };
 		1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavgationSelectionView.swift; sourceTree = "<group>"; };
+		1F93D17E28E4214B00B89556 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		1FA77F2F28D978F5001C54CF /* redbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA77F3228D978F5001C54CF /* redbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbookApp.swift; sourceTree = "<group>"; };
 		1FA77F3428D978F5001C54CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,15 +75,10 @@
 		1FA77F6828D97EA8001C54CF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1FA77F6D28D9808A001C54CF /* Strings+Localisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Localisation.swift"; sourceTree = "<group>"; };
 		1FA77F7028D980F1001C54CF /* LanguageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageUtil.swift; sourceTree = "<group>"; };
-		1FA77F7528D981E5001C54CF /* MessagePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePageView.swift; sourceTree = "<group>"; };
 		1FA77F7728D98211001C54CF /* AboutMePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMePageView.swift; sourceTree = "<group>"; };
 		1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingPageView.swift; sourceTree = "<group>"; };
 		1FA77F7B28D98363001C54CF /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
-		1FA77F8028D98474001C54CF /* MessageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItemView.swift; sourceTree = "<group>"; };
-		1FA77F8428D984DF001C54CF /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
-		1FA77F8628D9857D001C54CF /* MessageTitleFutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTitleFutureView.swift; sourceTree = "<group>"; };
 		1FA77F8928D98901001C54CF /* TimeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUtil.swift; sourceTree = "<group>"; };
-		1FA77F8B28D98E33001C54CF /* MessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailView.swift; sourceTree = "<group>"; };
 		1FA77F8E28D9A0FB001C54CF /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		1FA77F9028D9B110001C54CF /* AboutMeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeHeaderView.swift; sourceTree = "<group>"; };
 		1FD3FD8F28DF0F9B004133D8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -182,8 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				1FA77F8D28D9A0CC001C54CF /* aboutme */,
-				1FA77F7F28D98461001C54CF /* message */,
-				1FA77F7528D981E5001C54CF /* MessagePageView.swift */,
 				1FA77F7728D98211001C54CF /* AboutMePageView.swift */,
 				1FA77F7928D9834F001C54CF /* ShoppingPageView.swift */,
 				1FA77F7B28D98363001C54CF /* MainPageView.swift */,
@@ -195,6 +185,7 @@
 				1F659DE628E04F0E004A441E /* FocusOnDynamicCardView.swift */,
 				1F659DE828E07CE5004A441E /* FindNavigationBarView.swift */,
 				1F659DEA28E07D5D004A441E /* FindNavgationSelectionView.swift */,
+				1F93D17E28E4214B00B89556 /* NoteView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -215,17 +206,6 @@
 				1FA77F7028D980F1001C54CF /* LanguageUtil.swift */,
 			);
 			path = Localization;
-			sourceTree = "<group>";
-		};
-		1FA77F7F28D98461001C54CF /* message */ = {
-			isa = PBXGroup;
-			children = (
-				1FA77F8028D98474001C54CF /* MessageItemView.swift */,
-				1FA77F8428D984DF001C54CF /* MessageListView.swift */,
-				1FA77F8628D9857D001C54CF /* MessageTitleFutureView.swift */,
-				1FA77F8B28D98E33001C54CF /* MessageDetailView.swift */,
-			);
-			path = message;
 			sourceTree = "<group>";
 		};
 		1FA77F8828D988F8001C54CF /* Time */ = {
@@ -386,17 +366,13 @@
 				1FD3FD9228E00131004133D8 /* Tabbar.swift in Sources */,
 				1FA77F8F28D9A0FB001C54CF /* UserInfoView.swift in Sources */,
 				1F659DDF28E03EB8004A441E /* NearView.swift in Sources */,
-				1FA77F7628D981E5001C54CF /* MessagePageView.swift in Sources */,
 				1FA77F9128D9B110001C54CF /* AboutMeHeaderView.swift in Sources */,
+				1F93D17F28E4214B00B89556 /* NoteView.swift in Sources */,
 				1FD3FD9028DF0F9B004133D8 /* Card.swift in Sources */,
-				1FA77F8C28D98E33001C54CF /* MessageDetailView.swift in Sources */,
-				1FA77F8528D984DF001C54CF /* MessageListView.swift in Sources */,
 				1FA77F6E28D9808A001C54CF /* Strings+Localisation.swift in Sources */,
 				1FA77F3328D978F5001C54CF /* redbookApp.swift in Sources */,
 				1F659DE928E07CE5004A441E /* FindNavigationBarView.swift in Sources */,
-				1FA77F8128D98474001C54CF /* MessageItemView.swift in Sources */,
 				1F659DE128E03EC8004A441E /* ConcernView.swift in Sources */,
-				1FA77F8728D9857D001C54CF /* MessageTitleFutureView.swift in Sources */,
 				1FA77F7128D980F1001C54CF /* LanguageUtil.swift in Sources */,
 				1FA77F8A28D98901001C54CF /* TimeUtil.swift in Sources */,
 				1FA77F7C28D98363001C54CF /* MainPageView.swift in Sources */,

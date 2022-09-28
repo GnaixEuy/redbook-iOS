@@ -27,9 +27,9 @@ struct FindView: View {
                             HStack(alignment: .top){
                                 VStack{
                                     Card(text: "文案",image: "user_img",username: "username",locate: "29km")
+                                    Card(text: "文案",image: "img1",username: "username",locate: "29km")
                                 }
                                 VStack{
-                                    Card(text: "文案",image: "img1",username: "username",locate: "29km")
                                     Card(text: "文案",image: "img1",username: "username",locate: "29km")
                                 }
                             }
