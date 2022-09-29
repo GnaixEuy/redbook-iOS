@@ -96,6 +96,7 @@ struct NoteView: View {
                                 HStack{
                                     Image("user_img")
                                         .CircleImage(width: 60)
+                                        .padding(.leading, 10)
                                     VStack(alignment: .leading, spacing: 5) {
                                         Text("周杰伦")
                                         Text("你好！叫个朋友")

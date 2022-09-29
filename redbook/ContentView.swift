@@ -27,19 +27,25 @@ struct ContentView: View {
                     
                     HStack(spacing: 28){
                         Button{
-                            self.select = 0
+                            withAnimation {
+                                self.select = 0
+                            }
                         }label: {
                             Text("关注")
                                 .foregroundColor(select==0 ? .black:.gray)
                         }
                         Button{
-                            self.select = 1
+                            withAnimation {
+                                self.select = 1
+                            }
                         }label: {
                             Text("发现")
                                 .foregroundColor(select==1 ? .black:.gray)
                         }
                         Button{
-                            self.select = 2
+                            withAnimation {
+                                self.select = 2
+                            }
                         }label: {
                             Text("附近")
                                 .foregroundColor(select==2 ? .black:.gray)

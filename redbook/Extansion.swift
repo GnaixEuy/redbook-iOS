@@ -14,7 +14,6 @@ extension Image{
             .aspectRatio(contentMode: .fit)
             .mask(Circle())
             .frame(width: width,height: width)
-            .padding(.leading, 5)
     }
 }
 

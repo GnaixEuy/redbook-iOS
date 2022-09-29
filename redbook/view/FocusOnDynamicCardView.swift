@@ -16,6 +16,7 @@ struct FocusOnDynamicCardView: View {
             HStack(alignment: .center){
                 Image("user_img")
                     .CircleImage(width: 40)
+                    .padding(.leading, 5)
                 Text("username")
                 Text("6天前")
                     .font(.footnote)
