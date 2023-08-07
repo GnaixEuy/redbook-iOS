@@ -14,7 +14,6 @@ struct NoteView: View {
                 HStack{
                     // 顶部
                     Button {
-                        
                     } label: {
                         Text("开启聊天")
                     }
@@ -90,12 +89,14 @@ struct NoteView: View {
                         .padding()
                     
                     ForEach(0..<5){item in
+                        Divider()
+                            .hidden()
                         // 消息列表
                         VStack{
                             HStack(alignment: .top, spacing: 0){
                                 HStack{
                                     Image("user_img")
-                                        .CircleImage(width: 60)
+                                        .CircleImage(width: 40)
                                         .padding(.leading, 10)
                                     VStack(alignment: .leading, spacing: 5) {
                                         Text("周杰伦")
@@ -109,13 +110,12 @@ struct NoteView: View {
                                 
                                 Text("08-06")
                                     .font(.footnote)
+                                    .padding()
                                     .foregroundColor(.gray)
                             }
                         }
                     }
                 }
-                
-                Tabbar()
             }
         }
         .navigationBarHidden(true)

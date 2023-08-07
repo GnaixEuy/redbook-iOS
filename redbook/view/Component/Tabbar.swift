@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Selection{
+enum SelectPageEnum{
     case home
     case shopping
     case not
@@ -17,7 +17,7 @@ enum Selection{
 struct Tabbar: View {
     
     
-    @State var select : Selection = .home
+    @Binding var select : SelectPageEnum
     
     var body: some View {
         
@@ -84,6 +84,6 @@ struct Tabbar: View {
 
 struct Tabbar_Previews: PreviewProvider {
     static var previews: some View {
-        Tabbar()
+        Tabbar(select: Binding.constant(SelectPageEnum.home))
     }
 }

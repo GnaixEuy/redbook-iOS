@@ -216,7 +216,6 @@ struct AccountView: View {
                     
                 }
                 .ignoresSafeArea()
-                Tabbar()
             }
             .navigationBarHidden(true)
         }

@@ -11,7 +11,7 @@ import SwiftUI
 struct redbookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(selectPage: SelectPageEnum.home)
         }
     }
 }
