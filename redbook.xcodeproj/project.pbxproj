@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5C87372A8213D700821916 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C87362A8213D700821916 /* Intro.swift */; };
+		1F5C873A2A8217C700821916 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C87392A8217C700821916 /* LoginPageView.swift */; };
 		1F659DDD28E03E85004A441E /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DDC28E03E85004A441E /* FindView.swift */; };
 		1F659DDF28E03EB8004A441E /* NearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DDE28E03EB8004A441E /* NearView.swift */; };
 		1F659DE128E03EC8004A441E /* ConcernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F659DE028E03EC8004A441E /* ConcernView.swift */; };
@@ -20,9 +22,6 @@
 		1FA77F3528D978F5001C54CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F3428D978F5001C54CF /* ContentView.swift */; };
 		1FA77F3728D978F7001C54CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F3628D978F7001C54CF /* Assets.xcassets */; };
 		1FA77F3A28D978F7001C54CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F3928D978F7001C54CF /* Preview Assets.xcassets */; };
-		1FA77F4428D978F8001C54CF /* redbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F4328D978F8001C54CF /* redbookTests.swift */; };
-		1FA77F4E28D978F8001C54CF /* redbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F4D28D978F8001C54CF /* redbookUITests.swift */; };
-		1FA77F5028D978F8001C54CF /* redbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA77F4F28D978F8001C54CF /* redbookUITestsLaunchTests.swift */; };
 		1FA77F6528D97E38001C54CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA77F6728D97E38001C54CF /* Localizable.strings */; };
 		1FD11BF82A81394100D96718 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD11BF72A81394100D96718 /* LayoutView.swift */; };
 		1FD11BFE2A813A5500D96718 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD11BFD2A813A5500D96718 /* HomePageView.swift */; };
@@ -48,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5C87362A8213D700821916 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		1F5C87392A8217C700821916 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		1F659DDC28E03E85004A441E /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
 		1F659DDE28E03EB8004A441E /* NearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearView.swift; sourceTree = "<group>"; };
 		1F659DE028E03EC8004A441E /* ConcernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcernView.swift; sourceTree = "<group>"; };
@@ -63,10 +64,7 @@
 		1FA77F3628D978F7001C54CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA77F3928D978F7001C54CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FA77F3F28D978F8001C54CF /* redbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA77F4328D978F8001C54CF /* redbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbookTests.swift; sourceTree = "<group>"; };
 		1FA77F4928D978F8001C54CF /* redbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA77F4D28D978F8001C54CF /* redbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbookUITests.swift; sourceTree = "<group>"; };
-		1FA77F4F28D978F8001C54CF /* redbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1FA77F6628D97E38001C54CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1FA77F6828D97EA8001C54CF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1FD11BF72A81394100D96718 /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
@@ -100,12 +98,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5C87352A8213C500821916 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C87362A8213D700821916 /* Intro.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		1F5C87382A8217AB00821916 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C87392A8217C700821916 /* LoginPageView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		1FA77F2628D978F5001C54CF = {
 			isa = PBXGroup;
 			children = (
 				1FA77F3128D978F5001C54CF /* redbook */,
-				1FA77F4228D978F8001C54CF /* redbookTests */,
-				1FA77F4C28D978F8001C54CF /* redbookUITests */,
 				1FA77F3028D978F5001C54CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 		1FA77F3128D978F5001C54CF /* redbook */ = {
 			isa = PBXGroup;
 			children = (
+				1F5C87352A8213C500821916 /* Modal */,
 				1FA77F5C28D97A6D001C54CF /* view */,
 				1FA77F3228D978F5001C54CF /* redbookApp.swift */,
 				1FA77F3428D978F5001C54CF /* ContentView.swift */,
@@ -143,26 +156,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1FA77F4228D978F8001C54CF /* redbookTests */ = {
-			isa = PBXGroup;
-			children = (
-				1FA77F4328D978F8001C54CF /* redbookTests.swift */,
-			);
-			path = redbookTests;
-			sourceTree = "<group>";
-		};
-		1FA77F4C28D978F8001C54CF /* redbookUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1FA77F4D28D978F8001C54CF /* redbookUITests.swift */,
-				1FA77F4F28D978F8001C54CF /* redbookUITestsLaunchTests.swift */,
-			);
-			path = redbookUITests;
-			sourceTree = "<group>";
-		};
 		1FA77F5C28D97A6D001C54CF /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1F5C87382A8217AB00821916 /* Login */,
 				1FD11BFC2A813A1C00D96718 /* Account */,
 				1FD11BFB2A8139FC00D96718 /* Component */,
 				1FD11BFA2A8139E300D96718 /* Message */,
@@ -344,8 +341,10 @@
 			files = (
 				1F659DEB28E07D5D004A441E /* FindNavgationSelectionView.swift in Sources */,
 				1FA77F3528D978F5001C54CF /* ContentView.swift in Sources */,
+				1F5C87372A8213D700821916 /* Intro.swift in Sources */,
 				1F659DE728E04F0E004A441E /* FocusOnDynamicCardView.swift in Sources */,
 				1F659DDD28E03E85004A441E /* FindView.swift in Sources */,
+				1F5C873A2A8217C700821916 /* LoginPageView.swift in Sources */,
 				1FD11BFE2A813A5500D96718 /* HomePageView.swift in Sources */,
 				1FD3FD9228E00131004133D8 /* Tabbar.swift in Sources */,
 				1F659DDF28E03EB8004A441E /* NearView.swift in Sources */,
@@ -364,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA77F4428D978F8001C54CF /* redbookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA77F4E28D978F8001C54CF /* redbookUITests.swift in Sources */,
-				1FA77F5028D978F8001C54CF /* redbookUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,6 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

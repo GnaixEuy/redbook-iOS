@@ -20,6 +20,7 @@ struct AccountView: View {
                         Image("img1")
                             .resizable()
                             .aspectRatio( contentMode: .fill)
+                            .blur(radius: 10)
                             .frame(height: 350)
                             .clipped()
                         
@@ -47,7 +48,8 @@ struct AccountView: View {
                                             .foregroundColor(.white)
                                         Text("小红书好:123123")
                                             .font(.footnote)
-                                            .foregroundColor(.gray)
+                                            .foregroundColor(Color.white)
+                                            
                                     }
                                     Spacer()
                                 }
@@ -57,6 +59,7 @@ struct AccountView: View {
                                 } label: {
                                     HStack{
                                         Text("向大家介绍自己")
+                                        
                                         Image(systemName: "pencil")
                                         Spacer()
                                     }
